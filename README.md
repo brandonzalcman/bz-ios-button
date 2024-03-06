@@ -15,7 +15,7 @@ import IosButton from 'bz-ios-button';
 
 // ...
 
-Example: <IosButton
+<IosButton
   title="Hello World"
   size="md"
   bgColor="#007AFF"
