@@ -11,11 +11,19 @@ npm install bz-ios-button
 ## Usage
 
 ```js
-import { multiply } from 'bz-ios-button';
+import IosButton from 'bz-ios-button';
 
 // ...
 
-const result = await multiply(3, 7);
+Example: <IosButton
+  title="Hello World"
+  size="md"
+  bgColor="#007AFF"
+  type="filled"
+  textWeight="normal"
+  textColor="#FFFFFF"
+  onPress={() => console.log('Pressed')}
+/>;
 ```
 
 ## Contributing
